@@ -1,12 +1,12 @@
 for (let i = 1; i < 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
+        document.write('<br> ' + 'FizzBuzz');
     } else if (i % 3 === 0) {
-        console.log("Fizz");
+        document.write("<br> " + "Fizz");
     } else if (i % 5 === 0) {
-        console.log("Buzz");
+        document.write("<br> " + "Buzz");
     } else {
-        console.log(i);
+        document.write("<br> " + i);
     }
 }
 
